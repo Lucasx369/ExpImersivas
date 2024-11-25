@@ -1,5 +1,5 @@
 # Atividade Ponderada Individual
-## Atividade Ponderada Individual
+## Experiências Imersivas
 
 Vocês devem apresentar uma experiência que permita o usuário escolher entre rodar uma aplicação de realidade aumentada ou uma aplicação de realidade virtual (tour 360). Vocês podem utilizar a base que foi desenvolvida nas instruções da semana. Todo o código deve ser APRESENTADO para o professor, respondendo as seguintes questões:
 
