@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Título da página -->
+      <title>Sala 360</title>
+      <!-- Configurações básicas de codificação e responsividade -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Inclusão do framework A-Frame para cenas 3D -->
+      <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+
+      <!-- Elemento principal do A-Frame que renderiza a cena 3D -->
+      <a-scene>
+
+        <!-- Ativos carregados para uso na cena -->
+        <a-assets>
+          <img id="departamento-2" src="assets/departamento-2.webp" />
+        </a-assets>
+
+        <!-- Configuração da câmera -->
+        <a-camera position="0 1 0" id="cameraCena">
+          <a-cursor intersection-spawn="Event: click; mixin:voxel;"> </a-cursor>
+        </a-camera>
+
+        <!-- Céu em 360 graus com textura carregada -->
+        <a-sky id="img-360" radius="30" src="#departamento-2"> </a-sky>
+
+        <!-- Texto informativo no ambiente -->
+        <a-text value="Departamento 2" position="-1.5 4 -5" color="#000" scale="1.5 1.5 1.5"></a-text>
+        <a-text value="Legos Disponíveis no Estoque" position="-1.5 3.5 -5" color="#000"></a-text>
+
+        <!-- Esfera interativa que redireciona para outra tela -->
+        <a-sphere id="vai_para_cima" position="-8 10 -26" radius="0.5" color="#ed1212"></a-sphere>
+      </a-scene>
+    </body>
+
+    <script>
+      // Evento que redireciona o usuário para a primeira tela ao passar o cursor sobre a esfera
+      document
+        .querySelector("#vai_para_cima")
+        .addEventListener("mouseenter", (e) => {
+          location.href = "tela-rv-1.html";
+        });
+    </script>
+</html>

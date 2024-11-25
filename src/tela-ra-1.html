@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Primeiro AR</title>
+      <!-- Inclusão do framework A-Frame -->
+      <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+      <!-- Scripts para suporte a AR.js -->
+      <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/three.js/build/ar-threex-location-only.js'></script>
+      <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/aframe/build/aframe-ar.js'></script>
+  </head>
+  <body style="margin:0px; overflow: hidden;">
+
+      <!-- Cena A-Frame com configurações para AR.js -->
+      <a-scene vr-mode-ui="enabled: false" arjs="debugUIEnabled:false">
+
+          <!-- Definição de ativos para o ambiente -->
+          <a-assets>
+              <a-asset-item id="peca" src="assets/peca.webp"></a-asset-item>
+          </a-assets>
+
+          <!-- Marcador AR com objeto 3D associado -->
+          <a-marker present="hiro">
+              <a-entity gltf-model="#peca"></a-entity>
+          </a-marker>
+
+          <!-- Configuração da câmera -->
+          <a-entity camera="">
+          </a-entity>
+      </a-scene>
+  </body>
+</html>
