@@ -17,6 +17,7 @@ Este projeto implementa uma experiência interativa e imersiva para uma loja vir
 <img src="https://github.com/Lucasx369/ExpImersivas/blob/main/src/assets/loja.png" alt="Logo do Projeto" width="1000">
 
 ## Experiência Geral
+
 1) O usuário inicia na página inicial e escolhe entre explorar produtos ou ler instruções.
 2) Ao acessar a página de produtos, ele é transportado para um ambiente 3D que simula uma loja, com informações sobre os produtos e um botão interativo para navegar para outros departamentos.
 3) Caso acesse a tela de instrução (com AR), pode utilizar a câmera do dispositivo para visualizar objetos 3D de produtos LEGO no mundo real.
@@ -38,7 +39,7 @@ Este projeto implementa uma experiência interativa e imersiva para uma loja vir
 4) JavaScript:
 - Adição de interatividade, como eventos para redirecionar o usuário a diferentes páginas ao interagir com os elementos.
 
-## Estrutura Geral Resumida:
+## Estrutura Geral
 
 - Página Inicial (index.html): Apresenta um título de boas-vindas e dois botões para navegar para a página de produtos ou instruções, sendo o ponto de entrada da loja.
 - Página de VR (tela-vr-1.html e tela-vr-2.html): Utiliza A-Frame para criar uma cena 3D com fundo 360º, informações sobre produtos e uma esfera interativa que redireciona para a próxima página.
