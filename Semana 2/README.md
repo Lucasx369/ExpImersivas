@@ -5,9 +5,11 @@ O objetivo desta atividade é criar uma experiência imersiva com um humano digi
 
 ## Introdução
 
-Está sendo desenvolvida uma experiência interativa e imersiva para uma loja virtual fictícia da LEGO, onde o objetivo geral é criar uma experiência de compra diferenciada, misturando realidade virtual (VR) e realidade aumentada (AR), permitindo ao cliente explorar produtos de forma imersiva e visualmente atraente. Além disso, busca-se tornar a processo de monstagem das peças mais simples, atrativo e dinâmico. 
+Está sendo desenvolvida uma experiência interativa e imersiva para uma loja virtual fictícia da LEGO (Figura 1), onde o objetivo geral é criar uma experiência de compra diferenciada, misturando realidade virtual (VR) e realidade aumentada (AR), permitindo ao cliente explorar produtos de forma imersiva e visualmente atraente. Além disso, busca-se tornar a processo de monstagem das peças mais simples, atrativo e dinâmico. 
 
 ![Loja](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%201/src/assets/loja.png)
+
+**Figura 1**. Loja Lego. Fonte: Arquivo Pessoal
 
 ### Benefícios
 
@@ -53,13 +55,27 @@ Lara recebe os clientes em um ambiente virtual que simula uma loja da LEGO. Ao c
 
 ### Justificativa:
 
-- REVER
+A aparência da Lara (Figura 2) combina profissionalismo e diversão, alinhando-se ao contexto de uma guia interativa em um ambiente LEGO imersivo. No geral, ela possui essas características:
+
+- Foi projetada como uma jovem adulta visando refletir energia, criatividade e maturidade.
+- Vestida nas cores vibrantes da LEGO (amarelo e vermelho), com o intuito do uniforme reforçar a identidade da marca.
+- Possui expressões amigáveis, com um sorriso caloroso e olhos expressivos, criam conexão emocional, incentivando interação e exploração. 
   
-- INSERIR A IMAGEM DO HUMANO VIRTUAL
+![MetaHuman](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%202/Imagens/MetaHuman.png)
+
+**Figura 2**. Humano Virtual. Fonte: Arquivo Pessoal
 
 ### Imagens de Referências: 
 
-- INSERIR AS IMAGENS DE REFERÊNCIA
+Referências para o Humano Virtual (Figura 3):
+
+- **Vendedores das Lojas Lego**: são conhecidos por sua abordagem acolhedora, entusiasmo e estilo visual característico, com uniformes que refletem as cores vibrantes da marca. Eles também transmitem um senso de criatividade e pertencimento ao universo LEGO.
+- **Professores da Educação Infantil**: têm características essenciais para engajar um público diversificado, como crianças e famílias: são empáticos, comunicativos e possuem expressões faciais acolhedoras. Além disso, sua maneira de interagir promove aprendizado e diversão, criando um ambiente seguro e estimulante.
+- **Colaboradores da Disney**: são treinados para oferecer experiências mágicas, utilizando uma comunicação cativante, atitudes positivas e uma aparência visual que reforça a fantasia e o encantamento. Sua habilidade de conectar-se emocionalmente com pessoas de todas as idades é fundamental para criar momentos memoráveis.
+
+![Referências](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%202/Imagens/Refer%C3%AAncias.png)
+
+**Figura 3**. Referências para o Humano Virtual. Fonte: Arquivo Pessoal
 
 ## Parte 2: Roteiro de Interação
 
@@ -91,6 +107,6 @@ Segue abaixo, 3 casos de interações:
 
 - "Ah, e se você gosta de criar suas próprias invenções, também tenho várias ideias para compartilhar. Quem sabe sua próxima construção não vira uma obra-prima?"
 
-### Geração do Áudio
+### Geração e Integração do Áudio
 
 ## Parte 3: Descrição dos Recursos
