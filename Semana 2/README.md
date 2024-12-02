@@ -107,6 +107,16 @@ Segue abaixo, 3 casos de interações:
 
 - "Ah, e se você gosta de criar suas próprias invenções, também tenho várias ideias para compartilhar. Quem sabe sua próxima construção não vira uma obra-prima?"
 
-### Geração e Integração do Áudio
-
 ## Parte 3: Descrição dos Recursos
+
+Foram utilizadas as seguintes ferramentas:
+
+- O MetaHuman Creator, da Epic Games, é uma ferramenta avançada para criar humanos digitais hiper-realistas de forma rápida e intuitiva, com integração ao Unreal Engine. Ele permite personalizar características faciais, cabelo, vestuário e expressões, garantindo alta fidelidade visual e animações naturais. No projeto, foi usado para criar a humano virtual Lara, combinando um design expressivo e inclusivo com o universo visual da LEGO.
+
+- O ElevenLabs é uma plataforma de síntese de voz baseada em IA, que gera locuções realistas com ajuste de tom, emoção e ritmo. Suportando diversos idiomas, é ideal para criar vozes naturais em projetos de mídia e assistentes virtuais. No projeto, foi utilizado para produzir o áudio de boas-vindas da Lara, proporcionando uma voz acolhedora e alinhada à sua personalidade interativa.
+
+
+
+
+
+
