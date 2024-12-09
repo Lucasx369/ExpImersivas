@@ -1,65 +1,36 @@
 # Atividade Ponderada Individual
 ## Experiências Imersivas
 
-Esta atividade tem peso 0,5. Além de instalar o Unity, deve-se conseguir compilar um programa para sua utilização com o headset. Esse programa deve possuir um asset qualquer a escolha do usuário durante o desenvolvimento. Esse procedimento deve ser documentado no README do repositório utilizado na solução da atividade individual.
+Portar a experiência do Unity para o A-Frame. Trazer a experiência que estava sendo executada no Unity para o ambiente do A-Frame.
 
 ## Descrição Geral
 
-O projeto em desenvolvimento tem como objetivo criar uma cozinha virtual interativa utilizando o Unity. A experiência permite que os usuários explorem um ambiente de cozinha detalhado e interajam com diferentes objetos representados por assets 3D. Esta documentação apresenta o progresso atual, destacando os elementos implementados, os assets utilizados e a estruturação da cena.
+Neste projeto está sendo utilizado o framework A-Frame para criar um ambiente 3D interativo. O cenário consiste em uma cozinha (kitchen) com uma faca (knife) animada para rodar continuamente, proporcionando uma experiência dinâmica e facilitando a instrução do usuário.
 
+[![Assista ao vídeo no YouTube](https://img.youtube.com/vi/s06r5iYRLMo/0.jpg)](https://youtu.be/s06r5iYRLMo)
 
-![Cozinha](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%203/Segunda/Imagens/Cozinha.png)
+### Resumo da Estrutura do Código
 
-**Figura 1**. Cena: Cozinha Interativa. Fonte: Arquivo Pessoal
+**Gerenciamento de Assets (`<a-assets>`)**:
+   - Carrega texturas para o fundo e chão.
+   - Inclui modelos GLTF para a cozinha (`kitchen`) e faca (`knife`).
 
-### Estrutura da Cena
+**Cenário Principal (`<a-scene>`)**:
+   - **Fundo**: Definido com `<a-sky>` usando a textura `fundo`.
+   - **Chão**: Criado com `<a-plane>` texturizado, rotacionado para estar no plano horizontal.
+   - **Cozinha (`kitchen`)**: Modelo 3D posicionado alinhado ao chão.
+   - **Faca (`knife`)**: Modelo 3D animado para rotacionar continuamente.
 
-A cena principal foi configurada com os seguintes componentes:
+**Câmera**:
+   - Posicionada acima da cozinha (`position="0 12 0"`) para visão geral do ambiente.
 
-1. Main Camera: Configurada para capturar a visão do usuário no ambiente.
-2. Directional Light: Responsável pela iluminação geral do cenário.
-3. Plane: Servindo como base para o ambiente da cozinha.
+**Animação**:
+   - A faca possui uma animação de rotação contínua, definida pelo atributo `animation`.
 
-### Assets Implementados
-Foram inseridos cinco assets principais na cena, detalhados abaixo:
+## Funcionalidade Principal: Animação da Faca
 
-1. Cozinha:
+A faca possui uma rotação animada para indicar interatividade e ajudar os usuários a identificar facilmente o objeto. A animação é contínua e sincronizada para garantir suavidade.
 
-- O asset principal que forma o ambiente base. Inclui armários, pia, balcão, mesa e outros elementos que tornam o ambiente realista e funcional.
-- Texturas aplicadas para simular mármore nas bancadas e madeira no chão.
-
-![Cozinha](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%203/Segunda/Imagens/Assets.png)
-
-**Figura 2**. Asset: Cozinha. Fonte: Arquivo Pessoal
-
-2. Melancia:
-
-- Fruta representada em modelos realistas com cores vibrantes.
-- Posicionada sobre o balcão, demonstrando a possibilidade de interação.
-  
-![Melancia](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%203/Segunda/Imagens/Melancia.png)
-
-**Figura 3**. Asset: Melancia. Fonte: Arquivo Pessoal
-
-3. Banana:
-
-- Representada com um modelo fatiado para maior realismo.
-- Localizada próxima à pia, reforçando a temática de preparação culinária.
-
-**Figura 4**. Asset: Banana. Fonte: Arquivo Pessoal
-
-![Banana](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%203/Segunda/Imagens/Banana.png)
-
-4. Laranja:
-
-- Modelo cortado em pedaços, evidenciando o uso de frutas para simulações culinárias.
-- Posicionada ao lado de outras frutas, formando um conjunto estético.
-
-![Laranja](https://github.com/Lucasx369/ExpImersivas/blob/main/Semana%203/Segunda/Imagens/Laranja.png)
-
-**Figura 5**. Asset: Laranja. Fonte: Arquivo Pessoal
-
-5. Faca:
-
-- Representa o utensílio essencial na cozinha, posicionada de forma que sugere uso para cortar as frutas.
-- Exemplo de elemento interativo com potencial para futuras funcionalidades.
+Objetivo da animação:
+- Atrair a atenção dos usuários para um ponto de interesse.
+- Facilitar a instrução visual no ambiente.
